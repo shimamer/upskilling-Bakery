@@ -1,0 +1,53 @@
+.recipes .header-recipes {
+    color: #c88a40;
+    font-size: 7rem;
+    font-weight: 800;
+}
+
+.recipes .products {
+    justify-content: space-evenly;
+}
+
+.recipes .Card {
+    padding: 0;
+    border-top-left-radius: 2.2rem;
+    border-top-right-radius: 2.2rem;
+    padding: 0 0.5rem;
+}
+
+.recipes .Card img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.recipes .details {
+    border: 0.5px solid #FFD8AB;
+    border-top: none;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+.recipes .Card p {
+    padding: 0 1rem;
+}
+
+.recipes .products .Card .details .title {
+    color: #C98A40;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+.recipes .btn-recipes {
+    border-radius: 2rem;
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
