@@ -1,0 +1,36 @@
+.about-us{
+    /* background-color:#c88a40; */
+        background-image: linear-gradient(to right, #c88a40 60% , #fff 50%);
+
+    color: #fff;
+}
+.about-us .btn {
+    border-radius: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+.about-us .about-us-header{
+    font-weight: 800;
+    font-size: 4rem;
+}
+.chef{
+    width: 70%;
+}
+
+@media screen and (max-width:768px) {
+    .about-us{
+        background-image: linear-gradient(to bottom, #c88a40 70% , #fff 30%);
+    }
+    .chef-section{
+        text-align: center;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:569px) {
+    .about-us{
+        background-image: linear-gradient(to bottom, #c88a40 70% , #fff 30%);
+        text-align: center;
+    }
+   
+}

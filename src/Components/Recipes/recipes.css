@@ -1,6 +1,6 @@
 .recipes .header-recipes {
     color: #c88a40;
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 800;
 }
 
@@ -48,6 +48,17 @@
 }
 
 .col-lg-4 {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
+    /* flex: 0 0 33.333333%;
+    max-width: 33.333333%; */
+}
+@media screen and (max-width:768px) {
+    .recipes .header-recipes{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:569px) {
+    .recipes .header-recipes{
+        font-size: 3rem;
+    }
 }

@@ -16,7 +16,7 @@ function Contact() {
     const validate = values => {
         let errors = {}
 
-        if (!values.name) { 
+        if (!values.name) {
             errors.name = 'Name is  required'
         } else if (! /^[a-zA-Z]+ [a-zA-Z]+$/i.test(values.name)) {
             errors.name = 'Invaled name'
@@ -62,8 +62,8 @@ function Contact() {
                         contact us
                     </div>
                 </div>
-                <div className="row w-75 m-auto">
-                    <div className="col-md-6 col-lg-6 data text-center">
+                <div className="data-section row m-auto">
+                    <div className="col-md-12 col-lg-6 data text-center">
                         <form action="" onSubmit={formik.handleSubmit}>
                             <input type="text" placeholder="full name" className="text-capitalize form-control mb-3 border-radius p-3"
                                 onChange={formik.handleChange}
@@ -73,25 +73,26 @@ function Contact() {
                             {formik.touched.name && formik.errors.name ? <div className="error"> {formik.errors.name} </div> : null}
 
                             <input type="email" placeholder="email" className="text-capitalize form-control mb-3 p-3"
-                            onChange={formik.handleChange}
-                            name='email'
-                            value={formik.values.email}
-                            onBlur={formik.handleBlur}
+                                onChange={formik.handleChange}
+                                name='email'
+                                value={formik.values.email}
+                                onBlur={formik.handleBlur}
                             />
-                            { formik.touched.email && formik.errors.email ? <div className="error"> {formik.errors.email} </div> : null }
+                            {formik.touched.email && formik.errors.email ? <div className="error"> {formik.errors.email} </div> : null}
 
                             <input type="number" placeholder="phone number" className="text-capitalize form-control mb-3 p-3"
-                            onChange={formik.handleChange}
-                            name='phone'
-                            value={formik.values.phone}
-                            onBlur={formik.handleBlur}
+                                onChange={formik.handleChange}
+                                name='phone'
+                                value={formik.values.phone}
+                                onBlur={formik.handleBlur}
                             />
-                            { formik.touched.phone && formik.errors.phone ? <div className="error"> {formik.errors.phone} </div> : null }
+                            {formik.touched.phone && formik.errors.phone ? <div className="error"> {formik.errors.phone} </div> : null}
 
                             <button type='submit' class="btn btn-outline-warning btn-send text-uppercase text-center">send</button>
 
-                        </form></div>
-                    <div className="offset-1 col-md-5 col-lg-5 d-flex align-items-center">
+                        </form>
+                    </div>
+                    <div className="contact-section offset-1 col-lg-5 d-flex align-items-center">
                         <div className="mb-5">
                             <div className="mb-3">
                                 <img alt="mail" src={email} className="me-4" />

@@ -1,28 +1,62 @@
-.contact .header-content{
+.contact .header-content {
     color: #c88a40;
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 800;
 }
-.contact .data input{
+
+.contact .data input {
     border-radius: 2rem;
-    background-color: #ffd39f; 
+    background-color: #ffd39f;
     border: 0;
     font-weight: 700;
 }
-.contact .data button{
+
+.contact .data button {
     font-weight: 700;
 }
 
-.contact .data .btn-send{
-    border: 2px solid  #c88a40;
+.contact .data .btn-send {
+    border: 2px solid #c88a40;
     border-radius: 3rem;
     color: black;
     padding: 0.5rem 2.5rem;
-
 }
-.contact .data .btn-send:hover{
+
+.contact .data .btn-send:hover {
     background-color: transparent;
 }
-.contact .error{
+
+.contact .data-section {
+    width: 75%;
+}
+
+.contact .error {
     color: red;
+}
+
+@media screen and (max-width:990px) {
+    .contact .header-content {
+        font-size: 3rem;
+    }
+    .contact-section {
+        justify-content: center;
+        text-align: center;
+        margin: 2rem 0 0 0;
+    }
+}
+
+@media screen and (max-width:569px) {
+    .contact .header-content {
+        font-size: 3rem;
+    }
+
+    .data-section {
+        width: 100%;
+    }
+
+    .contact-section {
+        justify-content: center;
+        text-align: center;
+        margin: 2rem 0 0 0;
+    }
 }

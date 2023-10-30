@@ -1,0 +1,142 @@
+.home .btn {
+    border-radius: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.home p {
+    color: #c88a40
+}
+
+.home h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: end;
+}
+ 
+
+.home .header-section1{
+    font-weight: 700;
+}
+.w-60{
+    width:95%
+}
+.w-15{
+    width: 15%;
+}
+.container-fluid{
+    background-image: url(../../img/Mask\ Group.png); 
+}
+.bg-main{
+    background-color: #c88a40;
+}
+.social{
+    padding: 4rem 0 0 0.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+.social p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tasty{
+    color: #fff;
+}
+.btn-round {
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+.tasty-pastries h2{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.logo{
+    position: relative;  
+}
+.logo .bread{
+    position: relative;
+    right: 50%;
+}
+.logo .star{
+    position: absolute;
+    top: 65%;
+    left: 37%;
+}
+.text-bread{
+    transform: rotateX(5deg);
+}
+
+.paragraph{
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   left: 5rem;
+}
+.tasty-pastries{
+    width: 80%;
+}
+.tasty .tasty-pastries p{
+    width: 50%;
+   }
+.food-product{
+    margin: 0 0px 0px -13rem;
+}
+.description{
+    width: 80%;
+    margin: 4rem 0 0 5rem;
+}
+
+@media screen and (max-width:990px) {
+   .home .food-product img{
+    margin-bottom:2rem;
+    width: 90%;
+   } 
+   .home .how-we-work {
+    font-size:5rem ;
+   }
+}
+@media screen and (max-width:777px) {
+    
+       .home .how-we-work {
+        font-size:4rem ;    
+       }
+       .logo .bread{
+        display: none;
+     }
+     .tasty{
+        width: 100%;
+        text-align: center;
+     }
+     .tasty .tasty-pastries p{
+        width: 100%;
+     }
+
+     .icons , .social{
+        width: 50%;
+     }
+     .icons{
+        text-align: end;
+     }
+     .description{
+        width: 80%;
+        margin: 0rem 0 0 5rem;
+    }
+
+}
+@media screen and (max-width:569px) {
+    
+    .home .food-product img{
+        margin-bottom: 2rem;
+       }
+       .home .how-we-work {
+        font-size:4rem ;
+       }
+       .description{
+        width: 80%;
+        margin: 2rem 0 0 0rem;
+    }
+     
+}

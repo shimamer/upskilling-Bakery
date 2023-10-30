@@ -15,7 +15,7 @@
 }
 .header-testymonials{
     color: #fff;
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 800;
 }
 .testymonials .client{
@@ -37,7 +37,23 @@ color: #c88a40
     font-size: 0.5rem;
     font-weight: 500;
 }
-.col-md-6{
-    flex: 0 0 49%;
-    max-width: 49%;
+.col-lg-6{
+    /* flex: 0 0 49%; */
+    /* max-width: 49%; */
+}
+@media screen and (max-width:580px) {
+    .test-client{
+       padding: 0 0.5rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .testymonials .header-testymonials{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:569px) {
+    .testymonials .header-testymonials{
+        font-size: 3rem;
+    }
 }
